@@ -1,19 +1,17 @@
-Hi, I am now a first-year PhD at The Chinese University of Hong Kong (<b>CUHK-CSE</b>) advised by Prof. <b>[Bei Yu](http://www.cse.cuhk.edu.hk/~byu/)</b>. My research interests include <b>deep learning in VLSI</b>, <b>reinforcement learning</b> and <b>computer vision</b>. 
-Previously, I did some work on EDA related topics. Now I'm very interested in reinforcement learning on chips and large scale distributed training.
-I am also looking for academic visit or research interns.
-My open source contributions can be found on my [github profile](https://github.com/dekura). Please do not hesitate to contact me.
+Hi, I am now a first-year master student at Texas A&M University (<b>TAMU-ISE</b>).
 
 <hr>
 
-
+  <!-- <tr>
 ## <i class="iconfont icon-news" style="font-size: 0.9em"></i> News
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>2021-07-14</td>
-  <td>One paper about deep level set was accepted by ICCAD 2021.</td>
+ <td>One paper about deep level set was accepted by ICCAD 2021.</td>
 </tr>
 </table>
 
+</tr> -->
 
 ## <i class="iconfont icon-education" style="font-size: 0.9em"></i> Education
 
@@ -21,26 +19,20 @@ My open source contributions can be found on my [github profile](https://github.
   <tr>
     <td class="col-md-3">Aug 2021 - Present</td>
     <td>
-        <strong>Ph.D. in Computer Science</strong>
+        <strong>M.S. in Industrial Engineering</strong>
         <br>
-      The Chinese University of Hong Kong
+      Texas A&M University
     </td>
   </tr>
   <tr>
-    <td class="col-md-3">Aug 2019 - May 2020</td>
+    <td class="col-md-3">Sep 2017 - June 2021</td>
     <td>
-        <strong>M.S. in Computer Science</strong>
+        <strong>B.S. in Industrial Engineering</strong>
         <br>
-        The Chinese University of Hong Kong
+        Beijing Jiaotong University
     </td>
   </tr>
   <tr>
-    <td class="col-md-3">Aug 2015 - May 2019</td>
-    <td>
-        <strong>B.S. in Computer Science</strong>
-        <br>
-        Huazhong University of Science and Technology
-    </td>
   </tr>
   <!-- <tr>
     <td class="col-md-3">Aug 2012 - May 2015</td>
@@ -81,11 +73,11 @@ My open source contributions can be found on my [github profile](https://github.
     <strong>The Differentiable Cross-Entropy Method</strong><br>
     <strong>B. Amos</strong> and D. Yarats<br>
     ICML 2020<br>
-    
-    [1] 
+
+    [1]
 [<a href='javascript:;'
     onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_amos2020differentiable" style="text-align: justify; display: none" markdown="1">
 We study the Cross-Entropy Method (CEM) for the non-convex
 optimization of a continuous and parameterized
@@ -115,11 +107,11 @@ towards combining model-based and model-free RL.
     <strong>Objective Mismatch in Model-based Reinforcement Learning</strong><br>
     N. Lambert, <strong>B. Amos</strong>, O. Yadan, and R. Calandra<br>
     L4DC 2020<br>
-    
-    [2] 
+
+    [2]
 [<a href='javascript:;'
     onclick='$("#abs_lambert2020objective").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2002.04523' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_lambert2020objective" style="text-align: justify; display: none" markdown="1">
 Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework-what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model wrt the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
 </div>
@@ -134,11 +126,11 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
     <strong>Differentiable Convex Optimization Layers</strong><br>
     A. Agrawal*, <strong>B. Amos*</strong>, S. Barratt*, S. Boyd*, S. Diamond*, and J. Z. Kolter*<br>
     NeurIPS 2019<br>
-    
-    [3] 
+
+    [3]
 [<a href='javascript:;'
     onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2019differentiable3" style="text-align: justify; display: none" markdown="1">
 Recent work has shown how to embed differentiable optimization problems (that is, problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We introduce disciplined parametrized programming, a subset of disciplined convex programming, and we show that every disciplined parametrized program can be represented as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the entire convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) compared to specialized differentiable solvers from past work.
 </div>
@@ -153,11 +145,11 @@ Recent work has shown how to embed differentiable optimization problems (that is
     <strong>Generalized Inner Loop Meta-Learning</strong><br>
     E. Grefenstette, <strong>B. Amos</strong>, D. Yarats, P. Htut, A. Molchanov, F. Meier, D. Kiela, K. Cho, and S. Chintala<br>
     arXiv 2019<br>
-    
-    [4] 
+
+    [4]
 [<a href='javascript:;'
     onclick='$("#abs_grefenstette2019generalized").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01727' target='_blank'>pdf</a>]  [<a href='https://github.com/facebookresearch/higher' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_grefenstette2019generalized" style="text-align: justify; display: none" markdown="1">
 Many (but not all) approaches self-qualifying as "meta-learning" in
 deep learning and reinforcement learning fit a
@@ -186,11 +178,11 @@ facilitate.
     <strong>The Limited Multi-Label Projection Layer</strong><br>
     <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019<br>
-    
-    [5] 
+
+    [5]
 [<a href='javascript:;'
     onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2019limited" style="text-align: justify; display: none" markdown="1">
 We propose the Limited Multi-Label (LML) projection layer as a new
 primitive operation for end-to-end learning systems. The LML layer
@@ -216,9 +208,9 @@ classification.
     <strong>Differentiable Optimization-Based Modeling for Machine Learning</strong><br>
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
-    
+
     [6] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
-    
+
 </td>
 </tr>
 
@@ -229,11 +221,11 @@ classification.
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
     NeurIPS 2018<br>
-    
-    [7] 
+
+    [7]
 [<a href='javascript:;'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1810.13400' target='_blank'>pdf</a>]  [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2018end" style="text-align: justify; display: none" markdown="1">
 We present foundations for using Model Predictive Control (MPC) as a differentiable policy class for reinforcement learning in continuous state and action spaces. This provides one way of leveraging and combining the advantages of model-free and model-based approaches. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the controller. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning. Our experiments focus on imitation learning in the pendulum and cartpole domains, where we learn the cost and dynamics terms of an MPC policy class. We show that our MPC policies are significantly more data-efficient than a generic neural network and that our method is superior to traditional system identification in a setting where the expert is unrealizable.
 </div>
@@ -248,11 +240,11 @@ We present foundations for using Model Predictive Control (MPC) as a differentia
     <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018<br>
-    
-    [8] 
+
+    [8]
 [<a href='javascript:;'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_brown2018depth" style="text-align: justify; display: none" markdown="1">
 A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
 </div>
@@ -267,11 +259,11 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <strong>Learning Awareness Models</strong><br>
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
-    
-    [9] 
+
+    [9]
 [<a href='javascript:;'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_amos2018learning" style="text-align: justify; display: none" markdown="1">
 We consider the setting of an agent with a fixed body interacting with an
 unknown and uncertain external world. We show that models
@@ -308,11 +300,11 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Z. Kolter<br>
     NeurIPS 2017<br>
-    
-    [10] 
+
+    [10]
 [<a href='javascript:;'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_donti2017task" style="text-align: justify; display: none" markdown="1">
 As machine learning techniques have become more ubiquitous, it has
 become common to see machine learning prediction algorithms operating
@@ -339,11 +331,11 @@ approach and a purely black-box policy optimization approach.
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
     <strong>B. Amos</strong> and J. Z. Kolter<br>
     ICML 2017<br>
-    
-    [11] 
+
+    [11]
 [<a href='javascript:;'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2017optnet" style="text-align: justify; display: none" markdown="1">
 This paper presents OptNet, a network architecture that integrates
 optimization problems (here, specifically in the form of quadratic programs)
@@ -377,11 +369,11 @@ constraints better than other neural architectures.
     <strong>Input Convex Neural Networks</strong><br>
     <strong>B. Amos</strong>, L. Xu, and J. Z. Kolter<br>
     ICML 2017<br>
-    
-    [12] 
+
+    [12]
 [<a href='javascript:;'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2017input" style="text-align: justify; display: none" markdown="1">
 This paper presents the input convex neural network
 architecture. These are scalar-valued (potentially deep) neural
@@ -411,11 +403,11 @@ improvement over the existing state of the art in many cases.
     <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
-    
-    [13] 
+
+    [13]
 [<a href='javascript:;'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_zhao2016collapsed" style="text-align: justify; display: none" markdown="1">
 Sum-Product Networks (SPNs) are probabilistic inference machines that admit
 exact inference in linear time in the size of the network. Existing
@@ -443,11 +435,11 @@ with a maximum likelihood based approach.
     <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
-    
-    [14] 
+
+    [14]
 [<a href='javascript:;'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2016openface" style="text-align: justify; display: none" markdown="1">
 Cameras are becoming ubiquitous in the Internet of Things (IoT) and
 can use face recognition technology to improve context. There is a
@@ -475,11 +467,11 @@ the Apache 2.0 license. It is available at:
     <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     ACM TOMS 2014<br>
-    
-    [15] 
+
+    [15]
 [<a href='javascript:;'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_amos2014QNSTOP" style="text-align: justify; display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
 quasi-Newton stochastic optimization method of Castle and Trosset. For
@@ -516,7 +508,7 @@ biology problems is given.
 
 
 
-<!-- 
+<!--
 ## <i class="fa fa-chevron-right"></i> Service
 <table class="table table-hover">
 <tr>
@@ -747,11 +739,11 @@ Extensive experiments show that DAMO outperforms the state-of-the-art OPC soluti
     <strong>Performance study of Spindle, a web analytics query engine implemented in Spark</strong><br>
     <strong>B. Amos</strong> and D. Tompkins<br>
     CloudCom 2014<br>
-    
-    [1] 
+
+    [1]
 [<a href='javascript:;'
     onclick='$("#abs_amos2014performance_all_bib").toggle()'>abs</a>] [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709' target='_blank'>pdf</a>]  [<a href='https://github.com/adobe-research/spindle' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2014performance_all_bib" style="text-align: justify; display: none" markdown="1">
 This paper shares our experiences building and benchmarking Spindle as an open
 source Spark-based web analytics platform. Spindle's design has been
@@ -800,11 +792,11 @@ compared.
     <strong>Fortran 95 implementation of QNSTOP for global and stochastic optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker<br>
     SpringSim (HPC) 2014<br>
-    
-    [3] 
+
+    [3]
 [<a href='javascript:;'
     onclick='$("#abs_amos2014fortran_all_bib").toggle()'>abs</a>] [<a href='http://dl.acm.org/citation.cfm?id=2663525' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_amos2014fortran_all_bib" style="text-align: justify; display: none" markdown="1">
 A serial Fortran 95 implementation of the QNSTOP algorithm is presented.
 QNSTOP is a class of quasi-Newton methods for stochastic optimization with
@@ -822,11 +814,11 @@ functions.
     <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     ACM TOMS 2014<br>
-    
-    [4] 
+
+    [4]
 [<a href='javascript:;'
     onclick='$("#abs_amos2014QNSTOP_all_bib").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
-    
+
 <div id="abs_amos2014QNSTOP_all_bib" style="text-align: justify; display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
 quasi-Newton stochastic optimization method of Castle and Trosset. For
@@ -853,11 +845,11 @@ biology problems is given.
     <strong>Applying machine learning classifiers to dynamic Android malware detection at scale</strong><br>
     <strong>B. Amos</strong>, H. Turner, and J. White<br>
     IWCMC 2013<br>
-    
-    [1] 
+
+    [1]
 [<a href='javascript:;'
     onclick='$("#abs_amos2013applying_all_bib").toggle()'>abs</a>] [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
-    
+
 <div id="abs_amos2013applying_all_bib" style="text-align: justify; display: none" markdown="1">
 The widespread adoption and contextually sensitive
 nature of smartphone devices has increased concerns over smartphone
@@ -873,5 +865,3 @@ malware machine learning classifiers.
 </tr>
 
 </table> -->
-
-
