@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Guojin Chen
+title: Chunliang Yang
 ---
 
 ---

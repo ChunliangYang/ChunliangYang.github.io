@@ -2,7 +2,7 @@ Hi, I am now a first-year master student at Texas A&M University (<b>TAMU-ISE</b
 
 <hr>
 
-  <!-- <tr>
+  <!--
 ## <i class="iconfont icon-news" style="font-size: 0.9em"></i> News
 <table class="table table-hover">
 <tr>
@@ -11,7 +11,7 @@ Hi, I am now a first-year master student at Texas A&M University (<b>TAMU-ISE</b
 </tr>
 </table>
 
-</tr> -->
+ -->
 
 ## <i class="iconfont icon-education" style="font-size: 0.9em"></i> Education
 
@@ -693,21 +693,33 @@ Extensive experiments show that DAMO outperforms the state-of-the-art OPC soluti
 ## <i class="iconfont icon-award-solid" style="font-size: 0.9em"></i> Honors & Awards
 <table class="table table-hover">
 <tr>
-  <td class='col-md-2'>May 2020</td>
+  <td class='col-md-2'>Apr 2021</td>
   <td>
-    Distinguished Academic Performance Scholarship, CUHK.
+    Undergraduate Academic Competition Merit Scholarship, BJTU.
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>2015 - 2019</td>
+  <td class='col-md-2'>Oct 2020</td>
   <td>
-    First Class Scholarship, HUST, the highest scholarship in HUST.
+    Third Prize of Scholarship on Social Works, BJTU.
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Nov 2016</td>
+  <td class='col-md-2'>Oct 2020</td>
   <td>
-    National Encouragement Scholarship, HUST, Ministry of Education, PRC
+    Second Grade Academic Excellence Scholarship, BJTU.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Sep 2020</td>
+  <td>
+    International College Students'- “Internet +” Innovation and Entrepreneurship Competition in Beijing municipal-level.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Nov 2019</td>
+  <td>
+    Special Prize of The 14th “Dongfeng Nissan Cup”- National Industrial Engineering Application Case Competition, with rank of 1/320.
   </td>
 </tr>
 </table>
