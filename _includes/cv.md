@@ -2,6 +2,7 @@ Hi, I am now a first-year master student at Texas A&M University (<b>TAMU-ISE</b
 
 <hr>
 
+<!--
 
 ## <i class="iconfont icon-news" style="font-size: 0.9em"></i> News
 <table class="table table-hover">
@@ -11,7 +12,7 @@ Hi, I am now a first-year master student at Texas A&M University (<b>TAMU-ISE</b
 </tr>
 </table>
 
- <!--
+ -->
 
 ## <i class="iconfont icon-education" style="font-size: 0.9em"></i> Education
 
@@ -42,7 +43,7 @@ Hi, I am now a first-year master student at Texas A&M University (<b>TAMU-ISE</b
   </tr> -->
 </table>
 
--->
+
 
 ## <i class="iconfont icon-gongzuojingyan" style="font-size: 0.9em"></i> Experience
 <table class="table table-hover">
